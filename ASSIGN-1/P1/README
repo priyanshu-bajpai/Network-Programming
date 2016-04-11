@@ -1,0 +1,10 @@
+
+1. Compile the server giving the command ->    gcc server.c -o server
+
+2. Open a terminal and compile the client ->   gcc client.c -o client
+
+3. Run Server on one terminal, give a port number as command line argument ->   ./server 9989
+	the server will give its IP address.
+4. Open one or more terminal and run client on them, give the same port number and the IP address as arguments -> ./client 0.0.0.0 9989
+
+5. Prompt will ask you for the file to be read, type the name of file.The server will find it, if found it will send it

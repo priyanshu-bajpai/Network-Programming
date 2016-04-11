@@ -1,0 +1,13 @@
+The program takes the port number as argument.
+It asks for the number of children to create.
+
+Usage:
+./uds
+on running the server will print its IP and port number.
+
+Testbench:
+Usage:
+gcc testbench.c -o test
+./test IP        
+
+Inside the testbench, in place of port, write the port number, run the program normally to observe the output.

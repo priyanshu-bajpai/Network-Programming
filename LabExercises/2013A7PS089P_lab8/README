@@ -1,0 +1,4 @@
+after compiling, run the server: give port number as command line argument
+
+usage:
+	./server PORT
